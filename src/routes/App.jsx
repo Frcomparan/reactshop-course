@@ -23,7 +23,7 @@ const App = () => {
 			<BrowserRouter>
 				<Layout>
 					<Switch>
-						<Route exact path="/" component={Home} />
+						<Route exact path="/reactshop-course" component={Home} />
 						<Route exact path="/login" component={Login} />
 						<Route exact path="/password-recovery" component={PasswordRecovery} />
 						<Route exact path="/send-email" component={SendEmail} />

@@ -2,9 +2,12 @@
   "name": "react-shop",
   "version": "1.0.0",
   "description": "react eshop",
+  "homepage": "https://frcomparan.github.io/reactshop-course",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack serve",
     "build": "webpack --mode production"
   },
@@ -34,6 +37,7 @@
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "mini-css-extract-plugin": "^2.6.1",
     "sass": "^1.55.0",
     "style-loader": "^3.3.1"
